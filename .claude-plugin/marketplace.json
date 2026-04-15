@@ -6,7 +6,7 @@
     },
     "metadata": {
         "description": "ICWR Claude plugin marketplace",
-        "version": "1.0.2",
+        "version": "1.1.0",
         "pluginRoot": "./plugins"
     },
     "plugins": [
@@ -34,6 +34,44 @@
                 "cli",
                 "automation",
                 "code-generation"
+            ]
+        },
+        {
+            "name": "icwr-pentest",
+            "source": "./plugins/icwr-pentest",
+            "description": "PTES + OWASP WSTG aligned web application penetration testing framework with 7 interactive phases",
+            "version": "1.0.0",
+            "author": {
+                "name": "HarshXor",
+                "email": "harshxor@incrustwerush.org"
+            },
+            "homepage": "https://github.com/ICWR-TEAM/claude-icwr/tree/production/plugins/icwr-pentest",
+            "repository": "https://github.com/ICWR-TEAM/claude-icwr",
+            "license": "MIT",
+            "keywords": [
+                "pentest",
+                "security",
+                "owasp",
+                "ptes",
+                "web-security"
+            ],
+            "category": "security",
+            "tags": [
+                "pentest",
+                "security",
+                "owasp-wstg",
+                "ptes",
+                "vulnerability",
+                "reporting"
+            ],
+            "commands": [
+                "pentest-01-pre-engagement",
+                "pentest-02-intelligence-gathering",
+                "pentest-03-threat-modeling",
+                "pentest-04-vulnerability-analysis",
+                "pentest-05-exploitation",
+                "pentest-06-post-exploitation",
+                "pentest-07-reporting"
             ]
         }
     ]
