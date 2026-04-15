@@ -1,0 +1,1 @@
+/Users/harshxor/project/claude-icwr/plugins/icwr-python-cli/commands/create-python.md
