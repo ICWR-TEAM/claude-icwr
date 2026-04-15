@@ -63,15 +63,6 @@
                 "ptes",
                 "vulnerability",
                 "reporting"
-            ],
-            "commands": [
-                "pentest-01-pre-engagement",
-                "pentest-02-intelligence-gathering",
-                "pentest-03-threat-modeling",
-                "pentest-04-vulnerability-analysis",
-                "pentest-05-exploitation",
-                "pentest-06-post-exploitation",
-                "pentest-07-reporting"
             ]
         }
     ]
