@@ -72,6 +72,7 @@ if __name__ == "__main__":
 ## Current Plugins
 
 - **icwr-python-cli**: Python CLI tools (v1.0.0)
+- **icwr-pentest-vibe**: PTES-aligned pentesting framework with Burp MCP integration (v1.0.0)
 
 ---
 
