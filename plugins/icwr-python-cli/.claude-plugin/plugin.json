@@ -1,0 +1,16 @@
+{
+  "name": "icwr-python-cli",
+  "version": "1.0.0",
+  "description": "Python CLI for R&D incrustwerush.org",
+  "author": {
+    "name": "HarshXor",
+    "email": "harshxor@incrustwerush.org"
+  },
+  "license": "MIT",
+  "keywords": [
+    "python",
+    "cli",
+    "automation",
+    "code-generation"
+  ]
+}

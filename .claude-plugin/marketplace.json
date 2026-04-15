@@ -1,0 +1,40 @@
+{
+    "name": "icwr-tools",
+    "owner": {
+        "name": "HarshXor",
+        "email": "harshxor@incrustwerush.org"
+    },
+    "metadata": {
+        "description": "ICWR Claude plugin marketplace",
+        "version": "1.0.2",
+        "pluginRoot": "./plugins"
+    },
+    "plugins": [
+        {
+            "name": "icwr-python-cli",
+            "source": "./plugins/icwr-python-cli",
+            "description": "Python CLI for ICWR development automation",
+            "version": "1.0.0",
+            "author": {
+                "name": "ICWR",
+                "email": "harshxor@incrustwerush.org"
+            },
+            "homepage": "https://github.com/ICWR-TEAM/claude-icwr/tree/production/plugins/icwr-python-cli",
+            "repository": "https://github.com/ICWR-TEAM/claude-icwr",
+            "license": "MIT",
+            "keywords": [
+                "python",
+                "cli",
+                "automation",
+                "code-generation"
+            ],
+            "category": "development",
+            "tags": [
+                "python",
+                "cli",
+                "automation",
+                "code-generation"
+            ]
+        }
+    ]
+}
